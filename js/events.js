@@ -2,25 +2,29 @@
 
 function getIt() {
   $('p').on('click', function() {
-    alert('hey!')
+    alert('hey!');
   })
 }
 
 function frameIt() {
   $('img').on('load', function() {
-    $('img').addClass('tasty')
+    $('img').addClass('tasty');
   })
 }
 
 function submitIt() {
   $('form').on('submit', function() {
-    alert('Your form is going to be submitted now.')
+    alert('Your form is going to be submitted now.');
   })
 }
 
 function pressIt() {
   $('input').on('keydown', function() {
-    alert('Pressed Down.')
+    if (key.which == 71) {
+    alert('g was pressed');
+    } else {
+      return false;
+    }
   })
 }
 
