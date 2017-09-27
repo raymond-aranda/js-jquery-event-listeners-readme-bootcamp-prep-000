@@ -12,9 +12,16 @@ function frameIt() {
   })
 }
 
+function submitIt() {
+  $('input[type=submit]').on('submit', function() {
+    alert("Your form is going to be submitted now.")
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
 getIt();
+frameIt();
 
 });
