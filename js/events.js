@@ -1,5 +1,4 @@
 //define functions here
-
 $(document).ready(function(){
 
   function getIt() {
@@ -7,5 +6,11 @@ $(document).ready(function(){
       alert("Hey!");
     })
   }
+});
+
+$(document).ready(function(){
+
+// call functions here
+getIt();
 
 });
