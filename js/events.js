@@ -19,11 +19,9 @@ function submitIt() {
 }
 
 function pressIt() {
-  $('input').on('keydown', function() {
+  $(input).on('keydown', function() {
     if (key.which == 71) {
-    alert('g was pressed');
-    } else {
-      
+      alert('g was pressed');
     }
   })
 }
