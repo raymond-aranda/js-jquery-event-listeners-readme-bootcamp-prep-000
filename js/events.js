@@ -18,10 +18,17 @@ function submitIt() {
   })
 }
 
+function pressIt() {
+  $('input').on('keydown', function() {
+    alert()
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
 getIt();
 frameIt();
+submitIt();
 
 });
