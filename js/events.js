@@ -18,8 +18,8 @@ function submitIt() {
   })
 }
 
-function pressIt(key) {
-  $('#typing').on('keydown', function() {
+function pressIt() {
+  $('#typing').on('keydown', function(key) {
     if (key.which == 71) {
       alert('g was pressed');
     }
