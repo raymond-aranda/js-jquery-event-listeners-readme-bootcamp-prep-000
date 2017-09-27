@@ -20,7 +20,7 @@ function submitIt() {
 
 function pressIt() {
   $('input').on('keydown', function() {
-    alert()
+    alert('Pressed Down.')
   })
 }
 
@@ -30,5 +30,6 @@ $(document).ready(function(){
 getIt();
 frameIt();
 submitIt();
+pressIt();
 
 });
